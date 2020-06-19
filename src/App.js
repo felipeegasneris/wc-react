@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>el valor que llega desde el wc: {value}</p>
-        <my-counter start={value} onEventMyCounterAdd={e => setValue(e.detail.counter)}></my-counter>
+        <my-counter start={value} onEventMyCounterAdd={e => setValue(e.detail.counter)} ds-type="secondary"></my-counter>
       </header>
     </div>
   );
